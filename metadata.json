@@ -1,0 +1,6 @@
+{
+  "name": "Alexander Unisex Salon",
+  "description": "Luxurious, modern, and high-end unisex beauty and grooming experience in Padmasri Hills, Hyderabad. Book premium haircuts, balayage, facials, bridal styling, and celebrity makeup online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

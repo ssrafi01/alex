@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Sophisticated Dark Color Tokens mapping directly to the Design specifications */
+  --color-gold: #D4AF37;
+  --color-amber-50: #FFFDF5;
+  --color-amber-100: #FFF9E0;
+  --color-amber-200: #FFEFA6;
+  --color-amber-300: #F3DB6E;
+  --color-amber-400: #D4AF37; /* Sophisticated Gold */
+  --color-amber-500: #B8922C; /* Deep warm Gold */
+  --color-amber-600: #9E7920;
+  --color-amber-700: #7B5E17;
+  --color-amber-800: #594310;
+  --color-amber-900: #3D2D0B;
+
+  --color-zinc-950: #0A0A0A; /* Premium background bg */
+  --color-neutral-950: #0A0A0A; /* High-end dark black */
+  --color-neutral-900: #141414; /* Solid, premium card bg */
+  --color-stone-400: #A0A0A0; /* Refined dim text token */
+}
+
+@keyframes subtle-zoom {
+  0% { transform: scale(1.02); }
+  50% { transform: scale(1.06); }
+  100% { transform: scale(1.02); }
+}
+
+.animate-subtle-zoom {
+  animation: subtle-zoom 20s infinite ease-in-out;
+}
+
+/* Custom scrollbar behaviors for luxury cards and modals */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.2);
+  border-radius: 99px;
+}
